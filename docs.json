@@ -27,9 +27,7 @@
           {
             "group": "Getting Started",
             "pages": [
-              "claude-code/introduction",
-              "claude-code/installation",
-              "claude-code/authentication"
+              "claude-code/index"
             ]
           },
           {
