@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Vincent Hopf's Docs",
+  "name": "Docs.vjh.io",
   "colors": {
     "primary": "#2F3437",
     "light": "#6B7280",
@@ -14,11 +14,30 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "What is this?",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Claude Code",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "claude-code/introduction",
+              "claude-code/installation",
+              "claude-code/authentication"
+            ]
+          },
+          {
+            "group": "iOS Development",
+            "pages": [
+              "claude-code/iosdev/setup",
+              "claude-code/iosdev/SwiftUI",
+              "claude-code/iosdev/bestpractices"
             ]
           }
         ]
@@ -44,12 +63,6 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Contact",
-        "href": "https://vjh.io"
-      }
-    ],
     "primary": {
       "type": "button",
       "label": "Website",
